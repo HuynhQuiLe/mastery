@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: var(--color-black);
@@ -30,6 +34,7 @@ ul {
   padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 h1 {
@@ -57,11 +62,20 @@ h1 {
 }
 
 .p__grey {
-  font-size: 1.1rem;
   color: var(--color-grey);
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .p__white {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-white);
+}
+
+.section__padding {
+  padding: 0 7rem;
+}
+
+.clear {
+  clear: both;
 }
