@@ -24,6 +24,7 @@ ul {
   --color-black: #1b1d2d;
   --color-grey: #797979;
   --color-light-grey: #939393;
+  --color-bg-grey: #f6f6f6;
 }
 
 .custom__button {
